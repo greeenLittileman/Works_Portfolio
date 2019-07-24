@@ -1,0 +1,19 @@
+.footer
+{
+	background: #74cfae;
+	height: 100px;
+}
+.footer-wrap
+{
+	max-width: 960px;
+  	margin: 0 auto;
+}
+.footer_about h3
+{
+	color: white;
+	float: right;
+	font-size: 15px;
+	padding: 50px 0 0 0;
+	font-family: sans-serif;
+
+}

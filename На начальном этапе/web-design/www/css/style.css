@@ -1,0 +1,176 @@
+*
+{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+body
+{
+	background-image:url("../img/stena.jpg");
+	background-size:cover;
+}
+header
+{
+	width:850px;
+	height:80px;
+	border-bottom:1px solid #888;
+	margin:0 auto;
+}
+footer
+{
+	width:850px;
+	height:80px;
+	border-top:1px solid #888;
+	margin:0 auto;
+	margin-top:35px;
+}
+.wrapper
+{
+	background-color:white;
+	margin: 40px auto;
+	width:900px;
+	min-height:770px;
+	border-radius:5px;
+}
+#content
+{
+	width:850px;
+	min-height:500px;
+	margin:0 auto;
+}
+#wrap
+{
+	min-height:40px;
+	width:100%;
+	position:relative;
+}
+
+#wrap #web_design_text
+{
+	color:#bc8a58;
+	font-family:"Cooper", sans-serif;
+	font-size:44px;
+}
+#wrap #about
+{
+	color:#888;
+	padding-top:40px;
+	text-align:center
+}
+#wrap ul
+{
+	position:absolute;
+	top:18px;
+	right:0;
+}
+#wrap ul li
+{
+	display:inline;
+	padding-left:30px;
+	font-size:19px;
+}
+#wrap ul li a
+{
+	color:black;
+}
+/*  контент страницы*/
+#content_text
+{
+	width:100%;
+	min-height:80px;
+	border-bottom:1px solid #888;
+}
+#content_text p
+{
+	color:#888;
+	padding-top:10px;
+	font-size:15px;
+	line-height:30px;
+}
+.right_block
+{
+	width:250px;
+	height:500px;
+	float:right;
+}
+.left_block
+{
+	height:500px;
+}
+#design_block
+{
+	width:278px;
+	height:220px;
+	margin:10px;
+	float:left;
+}
+#design_block img
+{
+	width:278px;
+	height:140px;
+}
+#design_block #text_header_block
+{
+	color:#888;
+	font-size:18px;
+	padding-top:5px;
+}
+#design_block #text_content_block
+{
+	font-size:17px;
+	padding-top:5px;
+	color:#4c4c4c;
+	line-height:24px;
+}
+#text_menu
+{
+	color:#888;
+	font-size:16px;
+	padding-top:10px;
+	line-height:26px;
+}
+#navigator_menu
+{
+	margin-top:20px;
+}
+#navigator_menu p
+{
+	font-size:20px;
+	padding:10px;
+}
+#navigator_menu ul
+{
+	padding:10px;
+}
+#navigator_menu ul li
+{
+	list-style:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #dedede;
+}
+#navigator_menu ul li a
+{
+	color:#888;
+	font-size:16px;
+}
+#contacts #header
+{
+	font-size:20px;
+	padding:10px;
+}
+#contacts #contact
+{
+	color:#888;
+	font-size:16px;
+	line-height:25px;
+	padding:0 10px 10px 10px;
+}
+/*@media all and (max-width: 920px)
+{
+	.wrapper
+	{
+		width:800px;
+	}
+}
+*/

@@ -1,0 +1,181 @@
+$font-family:sans-serif;
+
+
+.banner
+{
+	display:flex;
+	align-items:center;
+	height:100%;
+	.bannerElements
+	{
+		text-align:center;
+		h1
+		{
+			font-size:4.4em;
+			text-transform:uppercase;
+			color:white;
+			font-family:$font-family;
+			padding:0px 0px 10px 0px;
+		}
+		p
+		{
+			padding:0px 0px 30px 0px;
+			font-size:18px;
+			color:white;
+			font-family:$font-family;
+		}
+		a
+		{
+			padding:15px;
+			color:white;
+			background:#15a4fa;
+			font-size:12px;
+			font-family:$font-family;
+			text-decoration:none;
+		}
+	}
+}
+.pure
+{
+	display:flex;
+	align-items:center;
+	height:50%;
+	.pureElements
+	{
+		text-align:center;
+		h2
+		{
+			font-size:25px;
+			font-family:$font-family;
+			padding:0px 0px 10px 0px;
+		}
+		p
+		{
+			font-family:$font-family;
+			color:grey;
+			font-size:18px;
+		}
+	}
+}
+.feature
+{
+	display:flex;
+	align-items:center;
+	flex-direction:row;
+	justify-content:space-around;
+	.featureResponsive
+	{
+		text-align:center;
+		width:33%;
+		h4
+		{
+			font-family:sans-serif;
+			font-size:15px;
+		}
+		p
+		{
+			color:grey;
+			font-size:12px;
+			font-family:sans-serif;
+		}
+	}
+	.featureClean
+	{
+		@extend .featureResponsive
+	}
+	.featureFontAwesome
+	{
+		@extend .featureResponsive
+	}
+}
+.hober
+{
+	display:flex;
+	align-items:center;
+	margin:5% 0px;
+	.hoberHeader
+	{
+		width:100%;
+		h4
+		{
+			text-align:center;
+			font-family:$font-family;
+			font-size:28px;
+			padding:10px 0px 10px 0px;
+		}
+		p
+		{
+			text-align:center;
+			color:grey;
+			font-size:13px;
+			font-family:$font-family;
+		}
+	}
+	.hoberImagesWorks
+	{
+		width:100%;
+		text-align:center;
+		img
+		{
+			width:300px;
+			height:215px;
+			padding:10px 0 0 10px;
+		}
+
+	}
+	margin:30px 0px;
+}
+.contact
+{
+	margin: 5% 0 1% 0;
+	display:flex;
+	.contactHeaderText
+	{
+		width:100%;
+		text-align:center;
+		h4
+		{
+			color:white;
+			font-family:$font-family;
+			font-size:37px;
+		}
+		p
+		{
+			padding:10px 0 10px 0;
+			color:grey;
+			font-family:$font-family;
+			font-size:12px;
+		}
+	}
+	.contactUserForm
+	{
+		width:100%;
+		text-align:center;
+		.name
+		{
+			padding:10px;
+			color:white;
+			background:rgba(59, 38, 38, 0);
+			width:65%;
+			border-color:#ababab;
+			margin:10px;
+		}
+		.email
+		{
+			@extend .name;
+		}
+		.message
+		{
+			@extend .name;
+		}
+		.buttonSend
+		{
+			background:#15a4fa;
+			padding:10px;
+			color:white;
+			border:none;
+			width:33%;
+		}
+	}
+}
+

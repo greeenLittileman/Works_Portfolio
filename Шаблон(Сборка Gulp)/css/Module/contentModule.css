@@ -1,0 +1,112 @@
+.banner {
+  display: flex;
+  align-items: center;
+  height: 100%; }
+  .banner .bannerElements {
+    text-align: center; }
+    .banner .bannerElements h1 {
+      font-size: 4.4em;
+      text-transform: uppercase;
+      color: white;
+      font-family: sans-serif;
+      padding: 0px 0px 10px 0px; }
+    .banner .bannerElements p {
+      padding: 0px 0px 30px 0px;
+      font-size: 18px;
+      color: white;
+      font-family: sans-serif; }
+    .banner .bannerElements a {
+      padding: 15px;
+      color: white;
+      background: #15a4fa;
+      font-size: 12px;
+      font-family: sans-serif;
+      text-decoration: none; }
+
+.pure {
+  display: flex;
+  align-items: center;
+  height: 50%; }
+  .pure .pureElements {
+    text-align: center; }
+    .pure .pureElements h2 {
+      font-size: 25px;
+      font-family: sans-serif;
+      padding: 0px 0px 10px 0px; }
+    .pure .pureElements p {
+      font-family: sans-serif;
+      color: grey;
+      font-size: 18px; }
+
+.feature {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around; }
+  .feature .featureResponsive, .feature .featureClean, .feature .featureFontAwesome {
+    text-align: center;
+    width: 33%; }
+    .feature .featureResponsive h4, .feature .featureClean h4, .feature .featureFontAwesome h4 {
+      font-family: sans-serif;
+      font-size: 15px; }
+    .feature .featureResponsive p, .feature .featureClean p, .feature .featureFontAwesome p {
+      color: grey;
+      font-size: 12px;
+      font-family: sans-serif; }
+
+.hober {
+  display: flex;
+  align-items: center;
+  margin: 5% 0px;
+  margin: 30px 0px; }
+  .hober .hoberHeader {
+    width: 100%; }
+    .hober .hoberHeader h4 {
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 28px;
+      padding: 10px 0px 10px 0px; }
+    .hober .hoberHeader p {
+      text-align: center;
+      color: grey;
+      font-size: 13px;
+      font-family: sans-serif; }
+  .hober .hoberImagesWorks {
+    width: 100%;
+    text-align: center; }
+    .hober .hoberImagesWorks img {
+      width: 300px;
+      height: 215px;
+      padding: 10px 0 0 10px; }
+
+.contact {
+  margin: 5% 0 1% 0;
+  display: flex; }
+  .contact .contactHeaderText {
+    width: 100%;
+    text-align: center; }
+    .contact .contactHeaderText h4 {
+      color: white;
+      font-family: sans-serif;
+      font-size: 37px; }
+    .contact .contactHeaderText p {
+      padding: 10px 0 10px 0;
+      color: grey;
+      font-family: sans-serif;
+      font-size: 12px; }
+  .contact .contactUserForm {
+    width: 100%;
+    text-align: center; }
+    .contact .contactUserForm .name, .contact .contactUserForm .email, .contact .contactUserForm .message {
+      padding: 10px;
+      color: white;
+      background: rgba(59, 38, 38, 0);
+      width: 65%;
+      border-color: #ababab;
+      margin: 10px; }
+    .contact .contactUserForm .buttonSend {
+      background: #15a4fa;
+      padding: 10px;
+      color: white;
+      border: none;
+      width: 33%; }

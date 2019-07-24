@@ -1,0 +1,160 @@
+.content
+{
+	background: white;
+}
+.block-wrap
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.content__block-logo
+{
+	min-height: 500px;
+	width: 100%;
+}
+
+.content__block-logo h1
+{
+	color:#74cfae;
+	text-align: center;
+	margin: 20% 0 0 0;
+	font-family: cursive;
+	font-size: 80px;
+}
+
+.content__block-logo h3
+{
+	color:#c0c0c0;
+	text-align: center;
+	font-size: 30px;
+	font-family: monospace;
+}
+
+
+.content__block-what-is
+{
+	background: #74cfae;
+	width: 100%;
+	min-height: 300px;
+}
+
+.block-what-is_image img
+{
+	float: left;
+	margin: 5px 0 0 20px;
+}
+
+.block-what-is_text
+{
+	float: right;
+	width: 70%;
+	padding: 70px 0 0 0;
+}
+
+.block-what-is_text .logo_text
+{
+	color:white;
+	width: 90%;
+	float: right;
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 25px;
+	font-family: monospace;
+	padding: 0 0 30px 0; 
+}
+
+.block-what-is_text .text
+{
+	float: right;
+	clear: both;
+	width: 90%;
+	font-size: 18px;
+	color:white;
+	font-family: sans-serif;
+	line-height: 25px;
+}
+
+.content__block-our-work
+{
+	min-height: 500px;
+}
+.content__block-our-work h3
+{
+	font-family: monospace;
+	color: #333;
+	font-size: 30px;
+	text-align: center;
+	margin: 50px 0 20px 0;
+	font-weight: 300;
+}
+.content__block-our-work ul
+{
+	list-style: none;
+	width: 105%;
+}
+.content__block-our-work ul li
+{
+	display: inline-block;
+	padding: 30px 20px 20px 10px;
+}
+.content__block-our-work ul li a
+{
+	text-decoration: none;
+}
+.content__block-our-work p
+{
+	width: 56%;
+	color:#333;
+	font-size: 20px;
+	font-family: monospace;
+	padding: 20px 0 20px 85px;
+	text-align: center;
+	line-height: 30px;
+}
+.content__block-our-work button
+{
+	width: 140px;
+	height: 40px;
+	float: right;
+	margin: 30px 20px 30px 0;
+	color:white;
+	background: #74cfae;
+	border-radius: 5px;
+	font-family: cursive;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.content__block-skills
+{
+	background: #4e4e4e;
+}
+.content__block-skills h3
+{
+	font-family: monospace;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding: 30px 0 30px 0;
+	font-weight: 300;
+}
+
+.content__block-skills ul
+{
+	list-style: none;
+	width: 100%;
+}
+.content__block-skills ul li
+{
+	display: inline-block;
+	margin: 30px 20px 50px 80px;
+}
+.content__block-skills ul li h5
+{
+	color: white;
+	font-size: 14px;
+	clear: both;
+	padding: 10px 0 0 0;
+	text-align: center;
+	font-family: sans-serif;
+}

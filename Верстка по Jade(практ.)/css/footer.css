@@ -1,0 +1,10 @@
+.footer
+{
+	height: 15px;
+}
+.footer h5
+{
+	font-size: 11px;
+	padding: 5px 0;
+	float: right;
+}

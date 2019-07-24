@@ -1,0 +1,77 @@
+/*-------content------*/
+/*-------------------*/
+#wrapper
+{
+	min-height: 100%;
+	position: relative;
+}
+#wrap
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.content
+{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 270px;
+}
+.content #wrap
+{
+	min-height: 510px;
+	width: 97%;
+	background: white;
+	padding: 10px;
+}
+#header-content
+{
+	margin: 10px;
+	background: #0eb3f9;
+}
+#header-content p
+{
+	float: right;
+	width: 64%;
+	margin-top: 5%;
+	font-family: cursive;
+}
+#document
+{
+	padding: 10px;
+}
+#centr-content
+{
+	padding: 10px;
+}
+#block-1
+{
+	width: 34%;
+	float: left;
+}
+#block-1 em
+{
+	color:#0eb3f9;
+	font-size: larger;
+	font-family: sans-serif;
+}
+#block-1 p
+{
+	padding: 10px 1px;
+	color:#c7c7c7;
+}
+#block-2
+{
+	float: right;
+	width: 65%;
+}
+#block-2 em
+{
+	color:#0eb3f9;
+	font-size: larger;
+	font-family: sans-serif;
+}
+#block-2 p
+{
+	padding: 5px 0px;
+	color:#565656;
+}

@@ -1,0 +1,67 @@
+.content__block-logo
+{
+	height: 400px;
+	margin: 90px 0 0 50px;
+}
+.content__block-logo img
+{
+	float: right;
+	margin: 70px 0 0 0;
+}
+.content__block-logo h1
+{
+	float: left;
+	font-style: italic;
+}
+.content__block-logo p
+{
+	font-size: 10px;
+	clear: both;
+}
+
+.content__block-about
+{
+	height: 300px;
+}
+.block-about_about-us
+{
+	width: 45%;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.block-about_about-us h1, .block-about_clients h1, .block-contacts_contact h1, .block-contacts_clients h1
+{
+	text-align: left;
+	font-style: italic;
+}
+.block-about_about-us p, .block-about_clients p, .block-contacts_contact p, .block-contacts_clients p
+{
+	font-size:12px;
+	font-style: italic;
+}
+.block-about_clients
+{
+	width: 45%;
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+.content__block-contacts
+{
+	background: black;
+	height: 200px;
+}
+.block-contacts_contact 
+{
+	color: white;
+	width: 10%;
+	float: left;
+	margin: 0 0 0 20px;
+}
+.block-contacts_clients
+{
+	color:white;
+	width: 45%;
+	float: right;
+	margin: 0 0 0 10px;
+}

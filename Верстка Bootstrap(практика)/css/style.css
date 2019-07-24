@@ -1,0 +1,45 @@
+body
+{
+	background-color:#222;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+.navbar-inverse
+{
+	border-color:#222;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+	color: #2D9C2B;
+	font-size: 20px;
+	margin:20px 0px;
+}
+.navbar-brand>img
+{
+	height: 70px;
+	display: block;
+}
+.col-md-3, .col-lg-3
+{
+	margin: 20px 0;
+
+}
+.btn-warning{
+	float: right;
+	color:white;
+}
+.col-lg-12>h4, .col-lg-12>p
+{
+	color: white;
+}
+address
+{
+	color:white;
+}
+.row h2
+{
+	color:white;
+}

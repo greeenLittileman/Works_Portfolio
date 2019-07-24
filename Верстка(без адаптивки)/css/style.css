@@ -1,0 +1,25 @@
+.header {
+  background: white;
+  min-height: 150px; }
+
+.header-wrap {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.header-wrap .icon_energy {
+  float: left;
+  context: "\f0e7";
+   }
+
+.header-wrap .href_contact {
+  float: right;
+  border-radius: 5px;
+  pading: 10px;
+  bacground: #74cfae;
+  widht: 100px;
+  height: 100px; 
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
